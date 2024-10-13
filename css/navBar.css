@@ -68,9 +68,14 @@ header .menu .close-menu {
 }
 header .menu a:hover,
 header .menu a.active {
-  font-weight: 600;
+  /* font-weight: 600; */
   color:var(--Color_Gold);
   transition: color 0.1s ease-in;
+
+
+  background-image: linear-gradient(to right, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 header.active1 .menu a:hover,
 header.active1 .menu a.active {
