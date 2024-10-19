@@ -1,7 +1,7 @@
 .site-footer {
     background-color: #000; 
     color: #eeece6; 
-    padding: 25px;
+    /* padding: 25px; */
     width: 100vw;
     box-sizing: border-box;
     min-height: 250px;
@@ -13,7 +13,7 @@
 .footer-content {
     width: 100%;
 width: 100vw;
-    margin: 0 auto;
+    margin: 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 10px; 

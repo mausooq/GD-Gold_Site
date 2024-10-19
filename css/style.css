@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  user-select: none;
   scroll-behavior: smooth;
 }
 
@@ -15,15 +14,23 @@
   background-color: #333;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #666;
   border-radius: 5px;
+  
+  background-image: linear-gradient(to right, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6e27a 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
+
 }
 body {
   background-color: rgb(255, 255, 255) !important;
   position: relative;
   height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
+}
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+
 }
 /* custom colors */
 .bg-customDark {
@@ -33,7 +40,10 @@ body {
 .golden_BG:hover {
   background-image: linear-gradient(to right, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6e27a 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
 }
-
+.bg-golden{
+  background-image: linear-gradient(45deg, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6e27a 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
+color: brown;
+}
 .golden_Text
 {
   background-image: linear-gradient(to right, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
@@ -188,7 +198,7 @@ video {
   margin: 50px auto;
 }
 .cont5top {
-  
+  margin-top: 100px;
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -229,7 +239,7 @@ video {
   pointer-events: none; 
 } */
 .UnderLine {
-  width: 100vw;
+  width: 100%;
   background: transparent;
   display: flex;
   justify-content: center;
@@ -240,6 +250,7 @@ video {
   height: 4.5px;
   border-radius: 3px;
   width: 100px;
+  margin-left: -10px;
   background-image: linear-gradient(to right, #f6e27a 0, #cb9b51 22%, #f6e27a 45%, #f6e27a 50%, #f6e27a 55%, #cb9b51 78%, #d3b107 100%);
 }
 .contact-section {
